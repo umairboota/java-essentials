@@ -11,7 +11,7 @@ public class mainClass {
     public void method(){
         i=5;
     }
-
+//    .
 
 
 //    main method
