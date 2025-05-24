@@ -12,7 +12,7 @@ public class mainClass {
         i=5;
     }
 
-
+//ertyu
 
 //    main method
     public static void main(String[] arg){
