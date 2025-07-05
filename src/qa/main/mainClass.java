@@ -1,6 +1,8 @@
 package qa.main;
 
 
+import java.util.Scanner;
+
 public class mainClass {
 
 
@@ -9,6 +11,15 @@ public class mainClass {
 //        print
 
         System.out.println("Hello Wolf");
+
+//        Scan input
+        int x;
+        Scanner a = new Scanner(System.in);
+        x = a.nextInt();
+
+        System.out.println(x);
+
+
 
 
 
