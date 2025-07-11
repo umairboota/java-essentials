@@ -1,23 +1,23 @@
 package qa.main;
 
 
-import java.util.Scanner;
 
-public class mainClass {
+public class mainClass extends learn {
 
 
     public static void main(String[] arg){
+        learn obj = new learn();
 
-//        print
+//        obj.addTwoNumbers();
+//
+//        int cel = 37;
+//        int far = 98;
+//        obj.CelsiusFahrenheitConverter(far);
 
-        System.out.println("Hello Wolf");
+        obj.interstCalculator();
 
-//        Scan input
-        int x;
-        Scanner a = new Scanner(System.in);
-        x = a.nextInt();
 
-        System.out.println(x);
+
 
 
 
