@@ -6,23 +6,16 @@ public class mainClass extends learn {
 
 
     public static void main(String[] arg){
-        learn obj = new learn();
 
-//        obj.addTwoNumbers();
-//
-//        int cel = 37;
-//        int far = 98;
-//        obj.CelsiusFahrenheitConverter(far);
+//  Arrays
 
-        obj.interstCalculator();
+//        Array arr = new Array();
 
+//        arr.arrLearn();
 
+        maxElementInAnArray obj = new maxElementInAnArray();
 
-
-
-
-
-
+//        System.out.println(obj.maxElement());
 
 
 
