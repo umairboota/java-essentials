@@ -12,7 +12,6 @@ public class maxElementInAnArray {
             if (arr[i] > max) {
 
                 max = arr[i];
-
             }
 
         }
