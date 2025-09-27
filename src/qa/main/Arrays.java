@@ -2,7 +2,7 @@ package qa.main;
 
 public class Arrays {
 
-    int[] arr = {4, 9, 56, 8, 4, 3, 0};
+    int[] arr = {4, 9, 56, 8, 4, 3, 0, 99};
 
 
     public int largestElementInArray(){
@@ -11,7 +11,7 @@ public class Arrays {
 
         int largest = arr[0];
 
-        for (int i = 0; i < arr.length-1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (largest < arr[i]){
                 largest = arr[i];
             }
@@ -29,7 +29,7 @@ public class Arrays {
 
         int smallest = arr[0];
 
-        for (int i = 0; i < arr.length-1; i++) {
+        for (int i = 0; i < arr.length; i++) {
 
             if (smallest > arr[i]){
                 smallest = arr[i];
