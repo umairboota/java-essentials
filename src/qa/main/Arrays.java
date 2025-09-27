@@ -3,7 +3,7 @@ package qa.main;
 public class Arrays {
 
 
-    public int  largestElementInArray(){
+    public int islargestElementInArray(){
 
 
         int[] arr = {4, 9, 56, 8, 4, 3, 0};
@@ -25,7 +25,7 @@ public class Arrays {
 
         Arrays test = new Arrays();
 
-       int LargestNumber = test.largestElementInArray();
+       int LargestNumber = test.islargestElementInArray();
 
         System.out.println("Largest Number: " + LargestNumber);
 
