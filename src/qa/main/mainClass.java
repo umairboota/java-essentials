@@ -11,7 +11,7 @@ public class mainClass extends learn {
 
 //        Arrays arr = new Arrays();
 
-//        arr.largestElementInArray();
+//        arr.islargestElementInArray();
 
         maxElementInAnArray obj = new maxElementInAnArray();
 
