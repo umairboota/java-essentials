@@ -74,7 +74,7 @@ public class Arrays {
 
         int sum = test.sumOfEvenNumbers();
 
-
+        System.out.println();
 
     }
 
