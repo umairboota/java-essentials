@@ -42,6 +42,23 @@ public class Arrays {
     }
 
 
+//    find the sum of even and count numbers in array
+//    sum
+    public int sumOfEvenNumbers(){
+
+        int sum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+
+            sum = sum + arr[i];
+
+        }
+
+        return sum;
+    }
+
+
+
     public static void main(String[] args) {
 
         Arrays test = new Arrays();
@@ -54,6 +71,8 @@ public class Arrays {
 
         System.out.println("Smallest Number: " + smallestElement);
 
+
+        int sum = test.sumOfEvenNumbers();
 
 
 
