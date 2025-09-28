@@ -58,6 +58,23 @@ public class Arrays {
         return sum;
     }
 
+//    count
+    public int countOfEvenNumbers(){
+
+        int counter = 0;
+
+        for (int i: arr) {
+
+            if (i % 2 == 0){
+                counter++;
+            }
+        }
+
+        return counter;
+    }
+
+
+
 
 
 
@@ -75,9 +92,13 @@ public class Arrays {
         System.out.println("Smallest Number: " + smallestElement);
 
 
-        int sum = test.sumOfEvenNumbers();
+        int sumOfEvenNumbers = test.sumOfEvenNumbers();
 
-        System.out.println("sum of array elements: " + sum);
+        System.out.println("sum of array elements: " + sumOfEvenNumbers);
+
+        int countOfEvenNumbers = test.countOfEvenNumbers();
+
+        System.out.println("count of even numbers in array elements: " + countOfEvenNumbers);
 
     }
 
