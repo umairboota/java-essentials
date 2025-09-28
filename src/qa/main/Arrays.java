@@ -48,14 +48,17 @@ public class Arrays {
 
         int sum = 0;
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i: arr) {
 
-            sum = sum + arr[i];
-
+            if (i % 2 == 0){
+                sum += i;
+            }
         }
 
         return sum;
     }
+
+
 
 
 
