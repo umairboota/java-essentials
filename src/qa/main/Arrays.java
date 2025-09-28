@@ -2,7 +2,7 @@ package qa.main;
 
 public class Arrays {
 
-    int[] arr = {4, 9, 56, 8, 4, 3, 0, 99};
+    int[] arr = {47, 39, 56, 28, 54, 13, 0, 99};
 
 
     public int largestElementInArray(){
@@ -74,7 +74,7 @@ public class Arrays {
 
         int sum = test.sumOfEvenNumbers();
 
-        System.out.println();
+        System.out.println("sum of array elements: " + sum);
 
     }
 
