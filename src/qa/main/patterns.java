@@ -12,9 +12,7 @@ public class patterns {
     * *****
     */
 
-    public void firstPattern(){
-
-        int val = 5;
+    public void firstPattern(int val){
 
         for (int i = 1; i <= val; i++) {
 
@@ -35,8 +33,8 @@ public class patterns {
     public static void main(String[] args) {
 
         patterns obj = new patterns();
-
-        obj.firstPattern();
+        int val = 5;
+        obj.firstPattern(val);
 
     }
 }
