@@ -5,11 +5,13 @@ public class patterns {
 //    first
 
     /*
-    * *
-    * **
-    * ***
-    * ****
-    * *****
+
+    *
+    **
+    ***
+    ****
+    *****
+
     */
 
     public void firstPattern(int val){
@@ -19,12 +21,36 @@ public class patterns {
             for (int j = 0; j < i; j++) {
 
                 System.out.print("*");
-
             }
-
             System.out.println(" ");
 
         }
+
+    }
+
+
+
+    /* Second Pattern
+
+     *****
+     ****
+     ***
+     **
+     *
+
+
+  */
+
+    public void secondPattern(int val){
+
+        for (int i = 0; i <= val; i++) {
+            for (int j = val; j >= i; j--) {
+                System.out.print("*");
+            }
+
+            System.out.println(" ");
+        }
+
 
     }
 
@@ -34,7 +60,8 @@ public class patterns {
 
         patterns obj = new patterns();
         int val = 5;
-        obj.firstPattern(val);
+//        obj.firstPattern(val);
+        obj.secondPattern(val);
 
     }
 }
