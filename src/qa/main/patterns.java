@@ -60,7 +60,8 @@ public class patterns {
 
         patterns obj = new patterns();
         int val = 5;
-//        obj.firstPattern(val);
+        obj.firstPattern(val);
+        System.out.println("--------------------------- ");
         obj.secondPattern(val);
 
     }
