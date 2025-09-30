@@ -66,7 +66,22 @@ public class patterns {
 
 **/
 
+public void thirdPattern(int val){
 
+    for (int i = 5; i < ; i++) {
+
+        for (int j = i; j <val; j++) {
+            System.out.print("*");
+
+        }
+
+        System.out.println(" ");
+
+    }
+
+
+
+}
 
 
     public static void main(String[] args) {
@@ -76,6 +91,9 @@ public class patterns {
         obj.firstPattern(val);
         System.out.println("--------------------------- ");
         obj.secondPattern(val);
+
+        System.out.println("--------------------------- ");
+        obj.thirdPattern(val);
 
     }
 }
