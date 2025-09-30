@@ -54,6 +54,19 @@ public class patterns {
 
     }
 
+    /*
+
+-------------------------THIRD PATTERN-----------------
+
+     *****
+      ****
+       ***
+        **
+         *
+
+**/
+
+
 
 
     public static void main(String[] args) {
