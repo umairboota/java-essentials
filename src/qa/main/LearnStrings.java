@@ -21,13 +21,24 @@ public class LearnStrings {
 
     }
 
+    public void Learn(){
+//        Concatenate
+
+        String firstName = "Tony";
+        String secondName = "Stark";
+
+        String fullName = firstName + " " + secondName;
+
+        System.out.println(fullName);
+    }
 
 
     public static void main(String[] args) {
 
         LearnStrings jooba = new LearnStrings();
 
-        jooba.Strings();
+//        jooba.Strings();
+        jooba.Learn();
 
 
     }
