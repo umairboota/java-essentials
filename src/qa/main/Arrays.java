@@ -7,8 +7,6 @@ public class Arrays {
 
     public int largestElementInArray(){
 
-
-
         int largest = arr[0];
 
         for (int i = 0; i < arr.length; i++) {
@@ -40,7 +38,6 @@ public class Arrays {
         return smallest;
 
     }
-
 
 //    find the sum of even and count numbers in array
 //    sum
