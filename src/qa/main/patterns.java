@@ -68,9 +68,9 @@ public class patterns {
 
 public void thirdPattern(int val){
 
-    for (int i = 5; i < val; i++) {
+    for (int i = 0; i <= val; i++) {
 
-        for (int j = i; j <val; j++) {
+        for (int j = i; j <= val; j++) {
             System.out.print("*");
 
         }
