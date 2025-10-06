@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class LearnStrings {
 
-
 //    Learning the Strings
 
 //    Declaration
@@ -18,7 +17,6 @@ public class LearnStrings {
         userName = sc.nextLine();
 
         System.out.println("Your Name is: " + userName);
-
     }
 
     public void LearnConcatenate(){
