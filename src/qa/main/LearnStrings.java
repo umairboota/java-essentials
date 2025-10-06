@@ -43,6 +43,25 @@ public class LearnStrings {
         }
     }
 
+//    Compare two Strings
+
+//    working
+
+//    1: s1 > s2 --> +ve value
+//    2: s1 == s2 --> 0
+//    3: s1<s2 --> -ve value
+
+    public void ComparisonStrings(){
+
+        String s1 = "This is a cat";
+        String s2 = "This is a cat";
+
+        if (s1.compareTo(s2) == 0)
+            System.out.println("Strings are Equal");
+         else
+            System.out.println("Strings are not Equal");
+    }
+
 
     public static void main(String[] args) {
 
