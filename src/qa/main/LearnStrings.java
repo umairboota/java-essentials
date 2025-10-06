@@ -21,7 +21,7 @@ public class LearnStrings {
 
     }
 
-    public void Learn(){
+    public void LearnConcatenate(){
 //        Concatenate
 
         String firstName = "Tony";
@@ -38,7 +38,7 @@ public class LearnStrings {
         LearnStrings jooba = new LearnStrings();
 
 //        jooba.Strings();
-        jooba.Learn();
+        jooba.LearnConcatenate();
 
 
     }
