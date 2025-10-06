@@ -68,10 +68,9 @@ public class LearnStrings {
         LearnStrings jooba = new LearnStrings();
 
 //        jooba.Strings();
-        jooba.LearnConcatenate();
+//        jooba.LearnConcatenate();
 
-
-
+        jooba.ComparisonStrings();
 
     }
 
