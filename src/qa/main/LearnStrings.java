@@ -28,6 +28,21 @@ public class LearnStrings {
         String fullName = firstName + " " + secondName;
 
         System.out.println(fullName);
+
+//        length()
+        System.out.println(fullName.length());
+
+
+//        charAt()
+        System.out.println(firstName.charAt(2));
+
+        for (int i = 0; i < fullName.length(); i++) {
+
+            System.out.println(fullName.charAt(i));
+
+        }
+
+
     }
 
 
@@ -37,6 +52,8 @@ public class LearnStrings {
 
 //        jooba.Strings();
         jooba.LearnConcatenate();
+
+
 
 
     }
