@@ -54,7 +54,7 @@ public class LearnStrings {
     public void ComparisonStrings(){
 
         String s1 = "This is a cat";
-        String s2 = "This is a cat";
+        String s2 = "This is a dog";
 
         if (s1.compareTo(s2) == 0)
             System.out.println("Strings are Equal");
