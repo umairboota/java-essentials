@@ -41,8 +41,6 @@ public class LearnStrings {
             System.out.println(fullName.charAt(i));
 
         }
-
-
     }
 
 
