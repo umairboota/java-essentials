@@ -65,7 +65,7 @@ public class LearnStrings {
 
 //    String Builder
 
-
+public void LearnStringBuilder(){}
 
 
     public static void main(String[] args) {
