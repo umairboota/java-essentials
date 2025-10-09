@@ -65,7 +65,24 @@ public class LearnStrings {
 
 //    String Builder
 
-public void LearnStringBuilder(){}
+    public void LearnStringBuilder(){}
+
+
+
+
+
+//    Problems
+
+    public String ReverseString(String str){
+        StringBuilder NewString = new StringBuilder();
+
+        for (int i = str.length()-1; i >=0; i--) {
+            NewString.append(str.charAt(i));
+        }
+        return NewString.toString();
+    }
+
+
 
 
     public static void main(String[] args) {
@@ -75,7 +92,11 @@ public void LearnStringBuilder(){}
 //        jooba.Strings();
 //        jooba.LearnConcatenate();
 
-        jooba.ComparisonStrings();
+//        jooba.ComparisonStrings();
+
+        String str = "hello";
+
+        System.out.println(jooba.ReverseString(str));
 
     }
 
