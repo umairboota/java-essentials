@@ -15,9 +15,9 @@ public class ArrayIsSorted {
 
 //    sort the array
 
-	public void sortArray() {
+	public void sortArray(int[] arra) {
 
-		int[] arra = { 5, 7, 9, 2, 25, 6 };
+//		int[] arra = { 5, 7, 9, 2, 25, 6 };
 
 		for (int i = 0; i < arra.length - 1; i++) {
 			for (int j = 0; j < arra.length - i - 1; j++) {
@@ -48,8 +48,10 @@ public class ArrayIsSorted {
 		}
 
 		ArrayIsSorted obj = new ArrayIsSorted();
+		
+	
 
-		obj.sortArray();
+		obj.sortArray(arr);
 
 	}
 
