@@ -10,9 +10,29 @@ public class ArrayIsSorted {
                 return false;
             }
         }
-
         
         return true;
+    }
+    
+    
+//           array 2 is sorted
+    
+    public int sortArray() {
+    	
+        int[] arra = {5, 7, 9, 2, 25, 6};
+        
+        for(int i = 0; i<=arra.length-1; i++) {
+        	if(arra[i] > ) {
+        		
+        	}
+        	
+        	return arra;
+    	
+    }
+    
+
+    	
+    	
     }
 
     public static void main(String[] args) {
@@ -26,6 +46,11 @@ public class ArrayIsSorted {
             System.out.println("array is sorted");
         }
     }
+    
+    
+    
+    
+    
 
 
 }
