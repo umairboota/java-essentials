@@ -2,28 +2,26 @@ package qa.main;
 
 public class ArrayIsSorted {
 
-	public static boolean checkArrayIsSorted(int[] arr) {
-
-		for (int i = 0; i < arr.length - 1; i++) {
-			if (arr[i] > arr[i + 1]) {
-				return false;
-			}
-		}
-
-		return true;
-	}
+//	public static boolean checkArrayIsSorted(int[] arr) {
+//
+//		for (int i = 0; i < arr.length - 1; i++) {
+//			if (arr[i] > arr[i + 1]) {
+//				return false;
+//			}
+//		}
+//
+//		return true;
+//	}
 	
 	
 	
 	
 //	insertion sort
 	
-	public void sortInsertionArray(int[] arra) {
-		
-		
-		
-		
-	}
+//	public void sortInsertionArray(int[] arr) {
+//
+//
+//	}
 
 //    bubble sort the array
 
@@ -49,15 +47,14 @@ public class ArrayIsSorted {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 4, 6, 7, 7, 8 };
+		int[] arr = { 42, 16, 57, 17, 78 };
 
-		if (!checkArrayIsSorted(arr)) {
-			System.out.println("array is not sorted");
-		}
-
-		else {
-			System.out.println("array is sorted");
-		}
+//		if (!checkArrayIsSorted(arr)) {
+//			System.out.println("array is not sorted");
+//		}
+//		else {
+//			System.out.println("array is sorted");
+//		}
 
 		ArrayIsSorted obj = new ArrayIsSorted();
 		
@@ -65,13 +62,11 @@ public class ArrayIsSorted {
 
 		obj.sortArray(arr);
 		
-		System.out.println("just checking it");
-		
-		obj.sortInsertionArray(arr);
+
+//		obj.sortInsertionArray(arr);
 
 		
-		
-		
+
 	}
 
 }
