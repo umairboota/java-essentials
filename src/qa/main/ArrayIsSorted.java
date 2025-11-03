@@ -12,8 +12,20 @@ public class ArrayIsSorted {
 
 		return true;
 	}
+	
+	
+	
+	
+//	insertion sort
+	
+	public void sortInsertionArray(int[] arra) {
+		
+		
+		
+		
+	}
 
-//    sort the array
+//    bubble sort the array
 
 	public void sortArray(int[] arra) {
 
