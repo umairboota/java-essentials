@@ -14,7 +14,7 @@ public class EvenOdds {
 
             }
             else {
-                coundOdd++;
+                countOdd++;
             }
             
         }
