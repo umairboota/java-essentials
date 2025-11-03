@@ -9,9 +9,9 @@ public class mainClass extends learn {
 
 //  Arrays
 
-//        Array arr = new Array();
+//        Arrays arr = new Arrays();
 
-//        arr.arrLearn();
+//        arr.islargestElementInArray();
 
         maxElementInAnArray obj = new maxElementInAnArray();
 
