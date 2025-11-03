@@ -19,10 +19,10 @@ public class ArrayIsSorted {
 //	insertion sort
 	
 	public void sortInsertionArray(int[] arra) {
-		
-		
-		
-		
+
+
+
+
 	}
 
 //    bubble sort the array
@@ -49,15 +49,14 @@ public class ArrayIsSorted {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 4, 6, 7, 7, 8 };
+		int[] arr = { 42, 16, 57, 17, 78 };
 
-		if (!checkArrayIsSorted(arr)) {
-			System.out.println("array is not sorted");
-		}
-
-		else {
-			System.out.println("array is sorted");
-		}
+//		if (!checkArrayIsSorted(arr)) {
+//			System.out.println("array is not sorted");
+//		}
+//		else {
+//			System.out.println("array is sorted");
+//		}
 
 		ArrayIsSorted obj = new ArrayIsSorted();
 		
@@ -65,13 +64,11 @@ public class ArrayIsSorted {
 
 		obj.sortArray(arr);
 		
-		System.out.println("just checking it");
-		
-		obj.sortInsertionArray(arr);
+
+//		obj.sortInsertionArray(arr);
 
 		
-		
-		
+
 	}
 
 }
