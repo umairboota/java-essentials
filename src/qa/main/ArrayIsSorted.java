@@ -2,26 +2,28 @@ package qa.main;
 
 public class ArrayIsSorted {
 
-//	public static boolean checkArrayIsSorted(int[] arr) {
-//
-//		for (int i = 0; i < arr.length - 1; i++) {
-//			if (arr[i] > arr[i + 1]) {
-//				return false;
-//			}
-//		}
-//
-//		return true;
-//	}
+	public static boolean checkArrayIsSorted(int[] arr) {
+
+		for (int i = 0; i < arr.length - 1; i++) {
+			if (arr[i] > arr[i + 1]) {
+				return false;
+			}
+		}
+
+		return true;
+	}
 	
 	
 	
 	
 //	insertion sort
 	
-//	public void sortInsertionArray(int[] arr) {
-//
-//
-//	}
+	public void sortInsertionArray(int[] arra) {
+
+
+
+
+	}
 
 //    bubble sort the array
 
