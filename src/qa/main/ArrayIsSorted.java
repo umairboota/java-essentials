@@ -66,6 +66,12 @@ public class ArrayIsSorted {
 		obj.sortArray(arr);
 		
 		System.out.println("just checking it");
+		
+		obj.sortInsertionArray(arr);
+
+		
+		
+		
 	}
 
 }
