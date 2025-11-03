@@ -2,29 +2,27 @@ package qa.main;
 
 public class min {
 
-    public static int min(){
+	public static int min(int[] arr) {
 
-        int[] arr = {1,4,6,8,96,0,-5};
-        int res=arr[0];
+//    	find the minimum value in the array
 
-        for (int i = 1; i < arr.length; i++) {
+		int res = arr[0];
 
-            if(arr[i] < res){
-                res = arr[i];
+		for (int i = 0; i <= arr.length - 1; i++) {
+			if (arr[i] < res) {
+				res = arr[i + 1];
+			}
+		}
 
-            }
+		return res;
+	}
 
-        }
+	public static void main(String[] args) {
 
-        return res;
+		int[] arr = { 1, 4, 6, 8, 96, 0, -5 };
 
-    }
+		System.out.println(min(arr));
 
-    public static void main(String[] args) {
-
-        System.out.println(min());
-
-    }
-
+	}
 
 }
