@@ -64,7 +64,6 @@ public void CelsiusFahrenheitConverter(int x){
 //📝 Problem#3 – Simple Interest Calculator
 public void interstCalculator(){
 
-    double principalAmount = 0;
     double interestRate = 0;
 
     double time = 0;
@@ -72,7 +71,6 @@ public void interstCalculator(){
     double SI;
 
     System.out.println("Enter principal");
-    principalAmount = sc.nextDouble();
 
     System.out.println("Enter annual interest rate (%):");
     interestRate = sc.nextDouble();
@@ -80,7 +78,7 @@ public void interstCalculator(){
     System.out.println("Enter time (years):");
     time = sc.nextDouble();
 
-    SI = (principalAmount * interestRate * time) / 100;
+    SI = (sc.nextDouble() * interestRate * time) / 100;
 
     System.out.println("Simple Interest = " + SI);
 
