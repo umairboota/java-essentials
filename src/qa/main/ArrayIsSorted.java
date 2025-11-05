@@ -12,44 +12,59 @@ public class ArrayIsSorted {
 
 		return true;
 	}
-	
-	
-	
+
 	
 //	insertion sort
 	
-	public void sortInsertionArray(int[] arra) {
-
-
-
-
-	}
+	public void sortInsertionArray(int[] arra) {}
 
 //    bubble sort the array
+	public void sortArray(int[] arr) {
 
-	public void sortArray(int[] arra) {
+        System.out.println("before sorting");
 
-//		int[] arra = { 5, 7, 9, 2, 25, 6 };
+        for(int i:arr){
+            System.out.print(i + " ");
+        }
 
-		for (int i = 0; i < arra.length - 1; i++) {
-			for (int j = 0; j < arra.length - i - 1; j++) {
-				if (arra[j] > arra[j + 1]) {
-					int temp = arra[j];
-					arra[j] = arra[j + 1];
-					arra[j + 1] = temp;
-				}
-			}
-		}
+       // sorting algo
+
+
+        for (int i = 0; i < arr.length-1; i++) {
+            for (int j = 0; j < arr.length-i-1; j++) {
+//                check condition
+                if (arr[i]>arr[i+1]){
+//                    swaping
+                    int temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+                }
+
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+        System.out.println(" ");
 
 		System.out.println("Sorted Array:");
-		for (int i : arra) {
+		for (int i : arr) {
 			System.out.print(i + " ");
 		}
 
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 42, 16, 57, 17, 78 };
+		int[] arr = { 77, 66, 55, 44, 33, 22};
 
 //		if (!checkArrayIsSorted(arr)) {
 //			System.out.println("array is not sorted");
