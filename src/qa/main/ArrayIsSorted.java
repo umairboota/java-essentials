@@ -16,9 +16,47 @@ public class ArrayIsSorted {
 	
 //	insertion sort
 	
-	public void sortInsertionArray(int[] arra) {}
+	public void sortInsertionArray(int[] arr) {
+
+
+//        print before soting
+        System.out.println("Before sorting the aaray");
+        for (int i:arr){
+            System.out.print(i + " ");
+
+        }
+
+//        soring algo
+/*
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+    }
 
 //    bubble sort the array
+    /*
+
+    Bubble sort is based on the idea of repeatedly comparing pairs of adjacent
+    elements and then swapping their positions if they exist in the wrong order.
+
+    Complexity:
+    The complexity of bubble sort is O(x^2)
+     in both worst and average cases, because the entire array needs to be
+     iterated for every element.
+
+
+
+    * */
 	public void sortArray(int[] arr) {
 
         System.out.println("before sorting");
@@ -39,20 +77,8 @@ public class ArrayIsSorted {
                     arr[i] = arr[i+1];
                     arr[i+1] = temp;
                 }
-
             }
-
         }
-
-
-
-
-
-
-
-
-
-
 
         System.out.println(" ");
 
@@ -74,15 +100,11 @@ public class ArrayIsSorted {
 //		}
 
 		ArrayIsSorted obj = new ArrayIsSorted();
+//        bubble soting
+//		obj.sortArray(arr);
 		
-	
-
-		obj.sortArray(arr);
-		
-
-//		obj.sortInsertionArray(arr);
-
-		
+// insertion sorting
+		obj.sortInsertionArray(arr);
 
 	}
 
