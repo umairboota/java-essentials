@@ -12,44 +12,96 @@ public class ArrayIsSorted {
 
 		return true;
 	}
-	
-	
-	
-	
+
 //	insertion sort
 	
-	public void sortInsertionArray(int[] arra) {
+	public void sortInsertionArray(int[] arr) {
+
+
+//        print before soting
+        System.out.println("Before sorting the aaray");
+        for (int i:arr){
+            System.out.print(i + " ");
+
+        }
+
+//        soring algo
+/*
+Insertion sort is based on the idea that one element from the input elements is
+consumed in each iteration to find its correct position i.e, the position to which
+it belongs in a sorted array.
+
+It iterates the input elements by growing the sorted array at each iteration.
+It compares the current element with the largest value in the sorted array.
+If the current element is greater, then it leaves the element in its place and moves on to the next element else it
+finds its correct position in the sorted array and moves it to that position.
+This is done by shifting all the elements, which are larger than the current element,
+in the sorted array to one position ahead.
+
+Time Complexity:
+                O(n^2)
+
+
+*/
 
 
 
 
-	}
+
+
+    }
 
 //    bubble sort the array
+    /*
 
-	public void sortArray(int[] arra) {
+    Bubble sort is based on the idea of repeatedly comparing pairs of adjacent
+    elements and then swapping their positions if they exist in the wrong order.
 
-//		int[] arra = { 5, 7, 9, 2, 25, 6 };
+    Complexity:
+    The complexity of bubble sort is O(x^2)
+     in both worst and average cases, because the entire array needs to be
+     iterated for every element.
 
-		for (int i = 0; i < arra.length - 1; i++) {
-			for (int j = 0; j < arra.length - i - 1; j++) {
-				if (arra[j] > arra[j + 1]) {
-					int temp = arra[j];
-					arra[j] = arra[j + 1];
-					arra[j + 1] = temp;
-				}
-			}
-		}
+
+
+    * */
+	public void sortArray(int[] arr) {
+
+        System.out.println("before sorting");
+
+        for(int i:arr){
+            System.out.print(i + " ");
+
+
+            System.out.println("test");
+        }
+
+       // sorting algo
+
+
+        for (int i = 0; i < arr.length-1; i++) {
+            for (int j = 0; j < arr.length-i-1; j++) {
+//                check condition
+                if (arr[i]>arr[i+1]){
+//                    swaping
+                    int temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+                }
+            }
+        }
+
+        System.out.println(" ");
 
 		System.out.println("Sorted Array:");
-		for (int i : arra) {
+		for (int i : arr) {
 			System.out.print(i + " ");
 		}
 
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 42, 16, 57, 17, 78 };
+		int[] arr = { 77, 66, 55, 44, 33, 22};
 
 //		if (!checkArrayIsSorted(arr)) {
 //			System.out.println("array is not sorted");
@@ -59,15 +111,11 @@ public class ArrayIsSorted {
 //		}
 
 		ArrayIsSorted obj = new ArrayIsSorted();
+//        bubble soting
+//		obj.sortArray(arr);
 		
-	
-
-		obj.sortArray(arr);
-		
-
-//		obj.sortInsertionArray(arr);
-
-		
+// insertion sorting
+		obj.sortInsertionArray(arr);
 
 	}
 
