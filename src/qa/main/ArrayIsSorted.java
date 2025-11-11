@@ -19,11 +19,11 @@ public class ArrayIsSorted {
 
 
 //        print before soting
-        System.out.println("Before sorting the aaray");
+        System.out.println("Before sorting the aray");
         for (int i:arr){
             System.out.print(i + " ");
-
         }
+
 
 //        soring algo
 /*
@@ -41,13 +41,51 @@ in the sorted array to one position ahead.
 Time Complexity:
                 O(n^2)
 
-
 */
 
 
+//        for (int i = 0; i < arr.length-1; i++) {
+//
+//            for (int j = 0; j < arr.length-1-i; j++) {
+//
+//                if (arr[j]>arr[i+1]){
+//                    int temp = arr;
+//                }
+//
+//
+//            }
+//
+//        }
+
+        for( int i = 0 ;i < arr.length ; i++ ) {
+    /*storing current element whose left side is checked for its
+             correct position .*/
+
+            int temp = arr[ i ];
+            int j = i;
+
+       /* check whether the adjacent element in left side is greater or
+            less than the current element. */
+
+            while(  j > 0  && temp < arr[ j -1]) {
+
+                // moving the left side element to one position forward.
+                arr[ j ] = arr[ j-1];
+                j= j - 1;
+
+            }
+            // moving current element to its  correct position.
+            arr[ j ] = temp;
+        }
 
 
+        System.out.println(" ");
+        System.out.println(" After soting the array");
+        System.out.println(" ");
 
+        for(int i : arr){
+            System.out.print(i + " ");
+        }
 
     }
 
