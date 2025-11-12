@@ -25,7 +25,7 @@ public class ArrayIsSorted {
         }
 
 
-//        soring algo
+//        sorting algo
 /*
 Insertion sort is based on the idea that one element from the input elements is
 consumed in each iteration to find its correct position i.e, the position to which
