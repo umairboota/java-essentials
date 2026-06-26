@@ -47,9 +47,21 @@ public class hardCoreLearning {
 
     }
 
-//    2nd problem - find the smallest number
+//    2nd problem - return the smallest number
 
-    
+    public int smallestNumberITheArray(){
+        int small = arr[0];
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]<small){
+                small=arr[i];
+            }
+
+
+        }
+
+        return small;
+    }
 
 
     public static void main(String[] args) {
@@ -58,6 +70,9 @@ public class hardCoreLearning {
         hardCoreLearning hardCodedLearning = new hardCoreLearning();
 
         hardCodedLearning.largetNumber();
+        int small = hardCodedLearning.smallestNumberITheArray();
+
+        System.out.println("the smallest number is " + small);
 
     }
 }
