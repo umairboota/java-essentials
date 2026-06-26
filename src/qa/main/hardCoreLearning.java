@@ -47,6 +47,10 @@ public class hardCoreLearning {
 
     }
 
+//    2nd problem - find the smallest number
+
+    
+
 
     public static void main(String[] args) {
 
