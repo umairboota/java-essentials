@@ -75,17 +75,29 @@ public class hardCoreLearning {
         }
 
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > secondlarge && arr[i] !=large ){
+            if (arr[i] > secondlarge && arr[i] != large) {
                 secondlarge = arr[i];
             }
 
         }
-
-
         return secondlarge;
 
     }
 
+    //    problem 3 - Method 2 - O(1)
+    public int secondLargestTwo() {
+        int large = arr[0], secondlarge = arr[0];
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > large) {
+                secondlarge = large;
+                large = arr[i];
+            }
+
+        }
+
+        return secondlarge;
+    }
 
     public static void main(String[] args) {
 
@@ -100,6 +112,10 @@ public class hardCoreLearning {
 //        problem 3
         int secondLarge = hardCodedLearning.secondLargestNumber();
         System.out.println("the second largest number is " + secondLarge);
+
+        //        problem 3 - method 2
+        int secondLargeTwo = hardCodedLearning.secondLargestTwo();
+        System.out.println("the second largest number is " + secondLargeTwo);
 
 
     }
