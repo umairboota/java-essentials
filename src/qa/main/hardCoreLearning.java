@@ -49,12 +49,12 @@ public class hardCoreLearning {
 
 //    2nd problem - return the smallest number
 
-    public int smallestNumberITheArray(){
+    public int smallestNumberITheArray() {
         int small = arr[0];
 
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i]<small){
-                small=arr[i];
+            if (arr[i] < small) {
+                small = arr[i];
             }
 
 
@@ -64,22 +64,43 @@ public class hardCoreLearning {
     }
 
 
-// 3rd problem Second largest
-    public void secondLargestNumber(){
-        int numb = 0;
-    }
+    // 3rd problem Second largest - Method 1
+    public int secondLargestNumber() {
+        int large = arr[0], secondlarge = arr[0];
 
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > large) {
+                large = arr[i];
+            }
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > secondlarge && arr[i] !=large ){
+                secondlarge = arr[i];
+            }
+
+        }
+
+
+        return secondlarge;
+
+    }
 
 
     public static void main(String[] args) {
 
-//        problem 1
+//        problem 1 + 2
         hardCoreLearning hardCodedLearning = new hardCoreLearning();
 
         hardCodedLearning.largetNumber();
         int small = hardCodedLearning.smallestNumberITheArray();
 
         System.out.println("the smallest number is " + small);
+
+//        problem 3
+        int secondLarge = hardCodedLearning.secondLargestNumber();
+        System.out.println("the second largest number is " + secondLarge);
+
 
     }
 }
