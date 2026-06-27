@@ -65,6 +65,9 @@ public class hardCoreLearning {
 
 
 // 3rd problem Second largest
+    public void secondLargestNumber(){
+        int numb = 0;
+    }
 
 
 
