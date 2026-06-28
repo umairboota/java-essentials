@@ -29,6 +29,8 @@ public class hardCoreLearning {
 
     int[] arr = {34, 78, 89, 23, 0, -1, 46, 3, 90};
 
+    String[] arr2 = {"Muhammad", "Umair", "Ali"};
+
 
 //    1. Find the largest element
 
@@ -112,6 +114,20 @@ public class hardCoreLearning {
 
         System.out.println(" Reversed Array: " + Arrays.toString(arr));
 
+
+    }
+
+    public void reverseAnStringArray() {
+
+        StringBuilder reverse = new StringBuilder();
+
+        for (int i = arr2.length; i > 0; i--) {
+            reverse.append(arr2[i - 1]).append(" ");
+        }
+
+        String newReversed = Arrays.toString(reverse.toString().split(" "));
+        System.out.println(newReversed);
+
     }
 
     public static void main(String[] args) {
@@ -134,6 +150,7 @@ public class hardCoreLearning {
 
 //        problem 4
         hardCodedLearning.reverseAnArray();
+        hardCodedLearning.reverseAnStringArray();
 
     }
 }
