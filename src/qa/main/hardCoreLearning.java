@@ -47,7 +47,7 @@ public class hardCoreLearning {
 
     }
 
-//    2nd problem - return the smallest number
+//    1st problem - return the smallest number
 
     public int smallestNumberITheArray() {
         int small = arr[0];
@@ -99,11 +99,24 @@ public class hardCoreLearning {
         return secondlarge;
     }
 
-//
+// problem 4 - reverse an array
+
+    public void reverseAnArray() {
+
+        for (int i = 0; i < arr.length / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = temp;
+
+        }
+
+        System.out.println(" Reversed Array: " + Arrays.toString(arr));
+
+    }
 
     public static void main(String[] args) {
 
-//        problem 1 + 2
+//        problem 1 + 1
         hardCoreLearning hardCodedLearning = new hardCoreLearning();
 
         hardCodedLearning.largetNumber();
@@ -111,14 +124,16 @@ public class hardCoreLearning {
 
         System.out.println("the smallest number is " + small);
 
-//        problem 3
+//        problem 2
         int secondLarge = hardCodedLearning.secondLargestNumber();
         System.out.println("the second largest number is " + secondLarge);
 
-        //        problem 3 - method 2
+        //        problem 2 - method 2
         int secondLargeTwo = hardCodedLearning.secondLargestTwo();
         System.out.println("the second largest number is " + secondLargeTwo);
 
+//        problem 4
+        hardCodedLearning.reverseAnArray();
 
     }
 }
