@@ -8,20 +8,20 @@ public class hardCoreLearning {
 //    problems
 
     /*
-    Largest/smallest element
-    Second largest
-    Reverse array
-    Sum and average
-    Count even/odd
-    Remove duplicates
-    Find duplicates
-    Missing number
-    Frequency of elements
-    Common elements
-    Merge arrays
-    Rotate array
-    Move zeros
-    Binary search
+    1. Largest/smallest element
+    2. Second largest
+    3. Reverse array
+    4. Sum and average
+    5. Count even/odd
+    6. Remove duplicates
+    7. Find duplicates
+    8. Missing number
+    9. Frequency of elements
+    10. Common elements
+    11. Merge arrays
+    12. Rotate array
+    13. Move zeros
+    14. Binary search
     Two Sum
     Kadane's algorithm
      */
@@ -98,6 +98,8 @@ public class hardCoreLearning {
 
         return secondlarge;
     }
+
+//
 
     public static void main(String[] args) {
 
