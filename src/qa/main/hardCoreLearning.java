@@ -137,6 +137,7 @@ public class hardCoreLearning {
         for (int i = 0; i < arr.length/2; i++) {
             int n = arr[i];
 
+
         }
 
         return arr;
