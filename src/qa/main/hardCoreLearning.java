@@ -130,7 +130,7 @@ public class hardCoreLearning {
 
     }
 
-    public void reverseAnLearningArrayAndReturnTheArray(){
+    public int [] reverseAnLearningArrayAndReturnTheArray(){
 
         for (int i = 0; i < arr.length/2; i++) {
             int n = arr[i];
@@ -138,7 +138,7 @@ public class hardCoreLearning {
             arr[arr.length-i-1] = n;
         }
 
-        System.out.println(Arrays.toString(arr));
+        return arr;
 
     }
 
@@ -163,7 +163,7 @@ public class hardCoreLearning {
 //        problem 4
         hardCodedLearning.reverseAnArray();
         hardCodedLearning.reverseAnStringArray();
-        hardCodedLearning.reverseAnLearningArrayAndReturnTheArray();
-
+        int[] result = hardCodedLearning.reverseAnLearningArrayAndReturnTheArray();
+        System.out.println("Reversed return: " + Arrays.toString(result));
     }
 }
