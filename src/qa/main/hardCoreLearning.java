@@ -130,6 +130,20 @@ public class hardCoreLearning {
 
     }
 
+    public int[] reverseAnLearningArrayAndReturnTheArray(){
+
+        int [] temp = {};
+
+        for (int i = 0; i < arr.length/2; i++) {
+            int n = arr[i];
+
+        }
+
+        return arr;
+
+
+    }
+
     public static void main(String[] args) {
 
 //        problem 1 + 1
