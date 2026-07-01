@@ -160,9 +160,8 @@ public class hardCoreLearning {
         for (int i = 0; i < arr.length; i++) {
             sum = sum + arr[i];
         }
-        float avg = sum /arr.length;
 
-        return avg;
+        return (float) sum /arr.length;
     }
 
     public static void main(String[] args) {
