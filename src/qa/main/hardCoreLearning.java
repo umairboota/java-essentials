@@ -130,15 +130,28 @@ public class hardCoreLearning {
 
     }
 
-    public int [] reverseAnLearningArrayAndReturnTheArray(){
+    public int[] reverseAnLearningArrayAndReturnTheArray() {
 
-        for (int i = 0; i < arr.length/2; i++) {
+        for (int i = 0; i < arr.length / 2; i++) {
             int n = arr[i];
-            arr[i] = arr[arr.length-i-1];
-            arr[arr.length-i-1] = n;
+            arr[i] = arr[arr.length - i - 1];
+            arr[arr.length - i - 1] = n;
         }
 
         return arr;
+
+    }
+
+    //    problem no 5
+    public int sumOfAllTheElementsOfAnArray() {
+
+        int sum = 0;
+
+        for (int i = 0; i <arr.length; i++) {
+            sum += arr[i];
+        }
+
+        return sum;
 
     }
 
@@ -165,5 +178,10 @@ public class hardCoreLearning {
         hardCodedLearning.reverseAnStringArray();
         int[] result = hardCodedLearning.reverseAnLearningArrayAndReturnTheArray();
         System.out.println("Reversed return: " + Arrays.toString(result));
+
+//        problem - 5
+        int sumOfArray = hardCodedLearning.sumOfAllTheElementsOfAnArray();
+        System.out.println("sum of all the elements is: " + sumOfArray);
     }
+
 }
