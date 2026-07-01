@@ -155,6 +155,15 @@ public class hardCoreLearning {
 
     }
 
+    public float returnTheAvg(){
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+
+        return sum /arr.length;
+    }
+
     public static void main(String[] args) {
 
 //        problem 1 + 1
@@ -182,6 +191,9 @@ public class hardCoreLearning {
 //        problem - 5
         int sumOfArray = hardCodedLearning.sumOfAllTheElementsOfAnArray();
         System.out.println("sum of all the elements is: " + sumOfArray);
+
+        float avgOfArray = hardCodedLearning.returnTheAvg();
+        System.out.println("sum of all the elements is: " + avgOfArray);
     }
 
 }
