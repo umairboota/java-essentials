@@ -31,7 +31,6 @@ public class hardCoreLearning {
 
     String[] arr2 = {"Muhammad", "Umair", "Ali"};
 
-
 //    1. Find the largest element
 
     public void largetNumber() {
@@ -64,7 +63,6 @@ public class hardCoreLearning {
 
         return small;
     }
-
 
     // 3rd problem Second largest - Method 1
     public int secondLargestNumber() {
@@ -147,7 +145,7 @@ public class hardCoreLearning {
 
         int sum = 0;
 
-        for (int i = 0; i <arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
 
@@ -155,14 +153,20 @@ public class hardCoreLearning {
 
     }
 
-    public float returnTheAvg(){
+    public float returnTheAvg() {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum = sum + arr[i];
         }
 
-        return (float) sum /arr.length;
+        return (float) sum / arr.length;
     }
+
+    // problem no 6 - remove duplicates in the array
+
+    int[] newArr = {5, 7, 44, 66, 55, 77, 8, 5, 5, 5, 0, -5};
+
+
 
     public static void main(String[] args) {
 
