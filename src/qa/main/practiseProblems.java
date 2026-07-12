@@ -56,7 +56,7 @@ public class practiseProblems {
         obj.reverseArray();
         int secondLarge = obj.findSecondLargeNumber();
 
-        System.out.println(secondLarge + " is second laerge");
+        System.out.println(secondLarge + " is second large");
     }
 
 
