@@ -14,10 +14,9 @@ public class practiseProblems {
         return small;
     }
 
-    public void reverseArray(){
+    public void reverseArray() {
 
-        for (int i = 0; i < arr.length/2; i++) {
-
+        for (int i = 0; i < arr.length / 2; i++) {
 
         }
 
@@ -28,7 +27,6 @@ public class practiseProblems {
         practiseProblems obj = new practiseProblems();
         System.out.println(obj.smallElement());
     }
-
 
 
 }
