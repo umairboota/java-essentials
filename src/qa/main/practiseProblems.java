@@ -22,11 +22,30 @@ public class practiseProblems {
         for (int i = 0; i < arr.length / 2; i++) {
             temp = arr[i];
             arr[i] = arr[arr.length - 1 - i];
-            arr[arr.length-1-i] = temp;
+            arr[arr.length - 1 - i] = temp;
         }
 
         System.out.println(Arrays.toString(arr));
 
+
+    }
+
+    public int findSecondLargeNumber() {
+
+        int large = arr[1];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > large) {
+                large = arr[i];
+            }
+        }
+        int secondLarge = arr[1];
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > secondLarge && arr[i] != large) {
+                secondLarge = arr[i];
+            }
+        }
+        return secondLarge;
 
     }
 
@@ -35,6 +54,9 @@ public class practiseProblems {
         System.out.println(obj.smallElement());
 
         obj.reverseArray();
+        int secondLarge = obj.findSecondLargeNumber();
+
+        System.out.println(secondLarge + " is second laerge");
     }
 
 
