@@ -166,7 +166,9 @@ public class hardCoreLearning {
 
     int[] newArr = {5, 7, 44, 66, 55, 77, 8, 5, 5, 5, 0, -5};
 
+    public void findDuplicates(){
 
+    }
 
 
 
