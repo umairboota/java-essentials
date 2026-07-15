@@ -180,7 +180,6 @@ public class hardCoreLearning {
 
         }
         return duplicate;
-
     }
 
 
@@ -190,6 +189,7 @@ public class hardCoreLearning {
         hardCoreLearning hardCodedLearning = new hardCoreLearning();
 
         hardCodedLearning.largetNumber();
+
         int small = hardCodedLearning.smallestNumberITheArray();
 
         System.out.println("the smallest number is " + small);
@@ -214,6 +214,13 @@ public class hardCoreLearning {
 
         float avgOfArray = hardCodedLearning.returnTheAvg();
         System.out.println("sum of all the elements is: " + avgOfArray);
+        int duplicate = hardCodedLearning.findDuplicates();
+
+        System.out.println("duplicate is: " + duplicate);
+
+
+
     }
+
 
 }
