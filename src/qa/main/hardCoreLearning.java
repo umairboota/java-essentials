@@ -162,9 +162,11 @@ public class hardCoreLearning {
         return (float) sum / arr.length;
     }
 
-    // problem no 6 - remove duplicates in the array
+    // problem no 6 -part 1 -find duplicates in the array
 
     int[] newArr = {5, 7, 44, 66, 55, 77, 8, 5, 5, 5, 0, -5};
+
+
 
 
 
