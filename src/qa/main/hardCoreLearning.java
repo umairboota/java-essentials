@@ -164,12 +164,24 @@ public class hardCoreLearning {
 
     // problem no 6 -part 1 -find duplicates in the array
 
-    int[] newArr = {5, 7, 44, 66, 55, 77, 8, 5, 5, 5, 0, -5};
+    int[] newArr = {5, 7, 44, 66, 55, 77, 8, 5, 0, -5};
 
-    public void findDuplicates(){
+    public int findDuplicates() {
+
+        int duplicate = newArr[0];
+
+        for (int i = 0; i < newArr.length; i++) {
+            for (int j = 1; j < i; j++) {
+                if (newArr[i] == newArr[j]) {
+                    duplicate = newArr[i];
+                    break;
+                }
+            }
+
+        }
+        return duplicate;
 
     }
-
 
 
     public static void main(String[] args) {
@@ -202,6 +214,10 @@ public class hardCoreLearning {
 
         float avgOfArray = hardCodedLearning.returnTheAvg();
         System.out.println("sum of all the elements is: " + avgOfArray);
+
+        int duplicate = hardCodedLearning.findDuplicates();
+        System.out.println("duplicate value: " + duplicate);
+
     }
 
 }
