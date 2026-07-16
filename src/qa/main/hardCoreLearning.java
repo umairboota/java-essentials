@@ -218,9 +218,6 @@ public class hardCoreLearning {
 
         System.out.println("duplicate is: " + duplicate);
 
-
-
     }
-
 
 }
