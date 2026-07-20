@@ -76,12 +76,12 @@ public class practiseProblems {
 
     int[] arr2 = {2, 5, 9, 6, 3, 5};
 
-    public int findDuplicates(){
+    public int findDuplicates() {
 
-        int temp
+        int temp = -1;
         for (int i = 0; i < arr2.length; i++) {
             for (int j = 1; j < i; j++) {
-                if (arr2[i] == arr2[j]){
+                if (arr2[i] == arr2[j]) {
                     temp = arr[1];
                     break;
                 }
@@ -89,6 +89,8 @@ public class practiseProblems {
             }
 
         }
+
+        return temp;
 
     }
 
@@ -107,6 +109,8 @@ public class practiseProblems {
         System.out.println(Arrays.toString(arr));
 
         int duplicate = obj.findDuplicates();
+
+        System.out.println(" Duplicates are: " + duplicate);
 
     }
 
