@@ -30,7 +30,7 @@ public class practiseProblems {
 
     }
 
-    public void reverseTheArray(){
+    public int[] reverseTheArray(){
 
         int temp = arr[0];
 
@@ -40,6 +40,8 @@ public class practiseProblems {
             arr[arr.length-1-i] = temp;
 
         }
+
+        return arr;
 
     }
 
@@ -81,6 +83,8 @@ public class practiseProblems {
 
         System.out.println(secondLarge + " is second large");
         System.out.println(obj.findOddNumbers());
+
+
     }
 
 
