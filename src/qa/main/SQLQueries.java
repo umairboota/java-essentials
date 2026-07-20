@@ -112,8 +112,7 @@ public record SQLQueries() {
 
 Joins
 
-
-
+problem:
 
 Select s.name, c.cust_name, s.city, p.city
 
