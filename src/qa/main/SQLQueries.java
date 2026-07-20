@@ -115,7 +115,13 @@ Joins
 
 
 
+Select s.name, c.cust_name, s.city, p.city
 
+FROM salesman s
+
+INNER JOIN customer c
+
+ON s.city = c.city;
 
 
 */
