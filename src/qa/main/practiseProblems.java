@@ -30,14 +30,14 @@ public class practiseProblems {
 
     }
 
-    public int[] reverseTheArray(){
+    public int[] reverseTheArray() {
 
         int temp = arr[0];
 
-        for (int i = 0; i < arr.length/2; i++) {
+        for (int i = 0; i < arr.length / 2; i++) {
             temp = arr[i];
-            arr[i] = arr[arr.length-1-i];
-            arr[arr.length-1-i] = temp;
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = temp;
 
         }
 
@@ -64,10 +64,10 @@ public class practiseProblems {
 
     }
 
-    public int findOddNumbers(){
+    public int findOddNumbers() {
         int countOdds = 0;
-        for (int i=0; i<arr.length; i++){
-            if (arr[i] % 2 == 0){
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
                 countOdds++;
             }
         }
@@ -84,6 +84,9 @@ public class practiseProblems {
         System.out.println(secondLarge + " is second large");
         System.out.println(obj.findOddNumbers());
 
+        int[] arr = obj.reverseTheArray();
+
+        System.out.println(Arrays.toString(arr));
 
     }
 
