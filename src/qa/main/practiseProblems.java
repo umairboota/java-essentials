@@ -82,7 +82,7 @@ public class practiseProblems {
         for (int i = 0; i < arr2.length; i++) {
             for (int j = 1; j < i; j++) {
                 if (arr2[i] == arr2[j]) {
-                    temp = arr[1];
+                    temp = arr2[1];
                     break;
                 }
 
@@ -110,7 +110,7 @@ public class practiseProblems {
 
         int duplicate = obj.findDuplicates();
 
-        System.out.println(" Duplicates are: " + duplicate);
+        System.out.println("Duplicates is: " + duplicate);
 
     }
 
