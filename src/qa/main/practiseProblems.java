@@ -74,6 +74,23 @@ public class practiseProblems {
         return countOdds;
     }
 
+    int[] arr2 = {2, 5, 9, 6, 3, 5};
+
+    public int findDuplicates(){
+
+        for (int i = 0; i < arr2.length; i++) {
+            for (int j = 1; j < i; j++) {
+                if (arr2[i] == arr2[j]){
+                    return arr2[i];
+                }
+
+            }
+
+        }
+
+
+    }
+
     public static void main(String[] args) {
         practiseProblems obj = new practiseProblems();
         System.out.println(obj.smallElement());
@@ -87,6 +104,8 @@ public class practiseProblems {
         int[] arr = obj.reverseTheArray();
 
         System.out.println(Arrays.toString(arr));
+
+        obj.
 
     }
 
