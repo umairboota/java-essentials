@@ -78,16 +78,17 @@ public class practiseProblems {
 
     public int findDuplicates(){
 
+        int temp
         for (int i = 0; i < arr2.length; i++) {
             for (int j = 1; j < i; j++) {
                 if (arr2[i] == arr2[j]){
-                    return arr2[i];
+                    temp = arr[1];
+                    break;
                 }
 
             }
 
         }
-
 
     }
 
