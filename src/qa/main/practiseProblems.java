@@ -30,6 +30,10 @@ public class practiseProblems {
 
     }
 
+    public void reverseTheArray(){
+
+    }
+
     public int findSecondLargeNumber() {
 
         int large = arr[1];
