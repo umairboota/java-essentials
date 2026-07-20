@@ -105,7 +105,7 @@ public class practiseProblems {
 
         System.out.println(Arrays.toString(arr));
 
-        obj.
+        int duplicate = obj.findDuplicates();
 
     }
 
