@@ -114,6 +114,11 @@ Joins
 
 problem:
 
+From the following tables write a SQL query to find the salesperson and
+customer who reside in the same city. Return Salesman, cust_name and city.
+
+
+
 Select s.name, c.cust_name, s.city, p.city
 
 FROM salesman s
